@@ -1,5 +1,4 @@
 #include "cozi.h"
-#include "stive.h"
 
 Queue* createQueue(){
 	Queue *q;
