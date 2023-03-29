@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1680078322 source:c:\users\bogdan\desktop\pa\lab5pa\lab5pa\main.c
+1680079015 source:c:\users\bogdan\desktop\pa\lab5pa\lab5pa\main.c
 	"cozi.h"
 
 1680078497 c:\users\bogdan\desktop\pa\lab5pa\lab5pa\stive.h
@@ -10,9 +10,9 @@
 1680077977 source:c:\users\bogdan\desktop\pa\lab5pa\lab5pa\stive.c
 	"stive.h"
 
-1680078331 c:\users\bogdan\desktop\pa\lab5pa\lab5pa\cozi.h
+1680079003 c:\users\bogdan\desktop\pa\lab5pa\lab5pa\cozi.h
 	"stive.h"
 
-1680078508 source:c:\users\bogdan\desktop\pa\lab5pa\lab5pa\cozi.c
+1680079030 source:c:\users\bogdan\desktop\pa\lab5pa\lab5pa\cozi.c
 	"cozi.h"
 

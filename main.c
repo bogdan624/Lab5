@@ -2,8 +2,12 @@
 
 int main()
 {
-    char s[30];
-    scanf("%s",s);
-    verificare_paranteze(s);
+    Queue *q=createQueue();
+    for(int i=0;i<5;i++){
+        enQueue(q,i+1);
+    }
+    displayQueue(q);
+    invers(q);
+    displayQueue(q);
     return 0;
 }

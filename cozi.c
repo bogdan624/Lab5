@@ -34,7 +34,6 @@ int deQueue(Queue*q) {
 int isEmptyC(Queue*q){
 	return (q->front==NULL);
 }
-
 void deleteQueue(Queue*q){
 	Elem* aux;
 	while (!isEmptyC(q)){
@@ -43,4 +42,25 @@ void deleteQueue(Queue*q){
 		free(aux);
 	}
 	free(q);
+}
+void invers(Queue *q) {
+    Node *s=NULL;
+    while (q->front != q->rear) {
+        push(&s, deQueue(q));
+    }
+    while (!isEmpty(s)) {
+        enQueue(q, pop(&s));
+    }
+}
+void displayQueue(Queue* q) {
+   if (isEmptyC(q)) {
+      printf("Coada e goala\n");
+      return;
+   }
+   Elem* current = q->front;
+   while (current != NULL) {
+      printf("%d ", current->val);
+      current = current->next;
+   }
+   printf("\n");
 }

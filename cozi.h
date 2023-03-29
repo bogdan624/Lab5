@@ -14,3 +14,5 @@ void enQueue(Queue*q, int v);
 int deQueue(Queue*q);
 int isEmptyC(Queue*q);
 void deleteQueue(Queue*q);
+void displayQueue(Queue* q);
+void invers(Queue *q);
