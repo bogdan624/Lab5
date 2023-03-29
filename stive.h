@@ -2,13 +2,16 @@
 #include <stdlib.h>
 #include <string.h>
 
+typedef char Data ;
+
 typedef struct Node{
-	char val;
+	Data val;
 	struct Node *next;
 }Node;
-char top(Node *top);
-void push(Node**top, char v);
-char pop(Node**top);
+
+Data top(Node *top);
+void push(Node**top, Data v);
+Data pop(Node**top);
 int isEmpty(Node*top);
 void deleteStack(Node**top);
-
+void verificare_paranteze(Data s[]);
