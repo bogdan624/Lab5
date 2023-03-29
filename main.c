@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "stive.h"
 
 int main()
 {
-    printf("Hello world!\n");
+    char s[30];
+    scanf("%s",&s);
     return 0;
 }
